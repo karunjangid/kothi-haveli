@@ -1,0 +1,29 @@
+.upnav{
+    display: flex;
+    justify-content: space-between;
+}
+.upnav__left{
+    display: flex;
+    margin: 30px;
+    margin-left: 120px;
+    gap: 40px;
+}
+.upnav__right{
+    display: flex;
+    margin: 30px;
+    gap: 10px;
+    color: grey;
+}
+.upnav__right a{
+    color: black;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+.upnav__right a:hover{
+    color: rgb(255, 0, 0);
+}
+.up-text{
+    color: rgba(128, 128, 128, 0.578);
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,11 @@
+.cont-cpryt{
+    background-color: black;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-cpryt p{
+    color: white;
+    font-size: 20px;
+}

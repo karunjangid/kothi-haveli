@@ -1,0 +1,93 @@
+.card-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    width: 100vw;
+    position: relative;
+    right: 40px;
+  }
+  .text-head-cards{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .card{
+    margin: 40px;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    padding: 60px 30px;
+    border-radius: 3%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: rgb(243, 241, 241);
+    box-shadow: 0px 0px 12px 3px rgb(194, 193, 193);
+}
+  .card img{
+    height: 200px;
+  }
+  .card button{
+    width:100px;
+    padding: 5px 10px;
+    background-color: rgba(255, 68, 0, 0.385);
+    border: none;
+    border-radius: 10px 10px;
+  }
+
+  .card .h11{
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+    left: 240px;
+    width: 30px;
+  }
+  .card h2 {
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .card .p1 {
+    font-size: 16px;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: row;
+  }
+  .textttt{
+    display: flex;
+    gap: 30px;
+  }
+.main-card-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  bottom: 120px;
+  font-weight: bolder;
+  user-select: none;
+  height: 0px;
+  border-bottom: 1px solid grey;
+}
+.btn-card{
+  position: relative;
+  bottom: 50px;
+  left:   90px;
+  width: 180px;
+  color: white;
+  border: 1px solid grey;
+}
+
+.btn-card:hover {
+  background-color: orangered;
+}
+.card img{
+  border-radius: 20px;
+}

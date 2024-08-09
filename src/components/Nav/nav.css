@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    width: 100vw;
+    z-index: 1000;
+    transition: top 1s ease;
+}
+
+nav.fixed {
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    margin-left: 170px;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    margin: 10px;
+    margin-right: 170px;
+    color: rgb(88, 87, 87);
+}
+.list li:hover{
+    color: orangered;
+    transition: 0.3s ease-in-out;
+}
+.list ul button{
+    background-color: black;
+    border: none;
+    border-radius: 50px 50px;
+    width: 160px;
+    height: 36px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.list{
+    display: flex;
+}
+.list li{
+    cursor: pointer;
+}
+.menu{
+    position: relative;
+    top: 18px;
+    left: 300px;
+    visibility: hidden;
+}

@@ -1,0 +1,17 @@
+.containerr{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(1800deg, rgba(1,0,0,0.8094887613248425) 70%, rgba(1,0,0,1) 100%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 77%, rgba(0,0,0,0.7310573887758228) 100%),url("https://wallpapercave.com/wp/wp6254065.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.containerr .cont-text{
+    position: relative;
+    right: 300px;
+    color: white;
+    font-family: Arial, sans-serif;
+}

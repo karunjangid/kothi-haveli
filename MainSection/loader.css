@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loader{
+    background: rgb(255, 4, 4);
+    height: 100px;
+    width: 40px;
+    border-radius: 50%;
+    border-bottom: 40px solid hotpink;
+    animation: spin 0.1s linear infinite;
+}
+.loader-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

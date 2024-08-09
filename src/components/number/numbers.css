@@ -1,0 +1,24 @@
+.main-num{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.num1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.07);
+    height: 14vh;
+    width: 40vh;
+    border-radius: 10px 10px;
+}
+.num1 h2{
+    width: 150px;
+}
+.num1 h1{
+    color: orangered;
+}

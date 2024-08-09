@@ -1,0 +1,26 @@
+.numcount{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.numcount button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px 60px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.numcount button:focus{
+    background-color: orangered;
+    transition: 1s;
+}
+.copyrightprop{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    justify-content: center;
+}
